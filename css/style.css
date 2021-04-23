@@ -1,0 +1,27 @@
+p {
+  color: royalblue;
+  font-weight: bold;
+}
+
+dl {
+  display: flex;
+  color: royalblue;
+  position: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.absolute {
+  width: 800px;
+  height: 100px;
+  background: navy;
+  position: absolute;
+}

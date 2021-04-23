@@ -1,22 +1,31 @@
-p {
+dt {
   color: royalblue;
   font-weight: bold;
+  display: flex;
 }
 
-dl {
-  display: flex;
+dd {
+  text-align: right;
   color: royalblue;
-  position: right;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  position: fixed;
+  top: 290px;
 }
 
 .relative {
   position: relative;
+  z-index: 3;
 }
 
 .relative__img {
   margin: 0 0 0 auto;
   display: block;
   width: 50%;
+  z-index: 3;
 }
 
 .absolute {
@@ -24,4 +33,6 @@ dl {
   height: 100px;
   background: navy;
   position: absolute;
+  margin-top: -50px;
+  z-index: 2;
 }
